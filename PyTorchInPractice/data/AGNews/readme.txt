@@ -1,3 +1,5 @@
+Original dataset available at https://github.com/mhjabreel/CharCnn_Keras/tree/master/data/ag_news_csv
+
 AG's News Topic Classification Dataset
 
 Version 3, Updated 09/09/2015
