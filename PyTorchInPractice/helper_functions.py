@@ -129,7 +129,7 @@ def get_summarizer(model, tokenizer):
 
         model.eval()
         with torch.inference_mode():
-        output_ids = model.generate(
+	    output_ids = model.generate(
             **batch,
             max_new_tokens=max_length,
             min_new_tokens=min_length,
